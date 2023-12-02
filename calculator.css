@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+h1 {
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 300%;
+}
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    justify-content: center;
+    background-image: radial-gradient(white, #D8D9DA, #61677A);
+
+}
+
+.outer-div {
+    background-color: black;
+    margin: auto;
+    padding-top: 2%;
+    height: 650px;
+    width: 350px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+button {
+    font-size: 270%;
+    border-radius: 250px;
+    border: 0px;
+    margin: 1% 1% 1% 1%;
+}
+
+button:active {
+    background-color: white;
+    color: black;
+}
+
+input {
+    width: 90%;
+    height: 30%;
+    background-color: black;
+    border: 0px;
+    margin-top: 10%;
+    color: white;
+    text-align: end;
+    font-size: 60px;
+    font-family: 'Roboto';
+}
+
+.outer-inner-div {
+    margin-top: 10%;
+    height: 50%;
+    background-color: black;
+
+}
+
+.inner-inner-div {
+    margin: auto;
+    margin-top: 10%;
+    height: 3px;
+    width: 35%;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.orange {
+    background-color: #FF9500;
+    color: white;
+    width: 20%;
+}
+
+.grey {
+    background-color: #484848;
+    width: 20%;
+    color: white;
+}
+
+.dark-grey {
+    background-color: #ccc;
+    width: 20%;
+}
+
+.zero {
+    width: 42%;
+    padding-left: 5%;
+    text-align: left;
+}
